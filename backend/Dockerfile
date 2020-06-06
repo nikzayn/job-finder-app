@@ -13,4 +13,4 @@ EXPOSE 8080
 
 COPY src /app/src
 
-CMD [ "nodemon", "src/app.js" ]
+CMD [ "nodemon", "src/worker/index.js" ]
